@@ -7,7 +7,7 @@ $color1: #ff9900;
 }
 
 body {
-  background-color: $color1;
+
 }
 
 .container {
@@ -18,6 +18,43 @@ body {
 }
 
 #main-logo {
-  width: 500px;
+  width: 400px;
   margin: 40px;
+}
+
+#sidenav-logo {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: $color1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: white;
+}
+
+.main {
+  margin-right: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
 }
