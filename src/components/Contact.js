@@ -20,13 +20,13 @@ import React from 'react'
 
 const Contact = (props) => {
   return(
-    <div id="contact">
-      <p>For all enquires please contact</p>
+    <div id="contact" className="container">
+      <p>For all enquires please contact
 
-      <a href="mailto:info@soulponies.co.uk" target="_blank" rel="noopener noreferrer">
-        <span>info@soulponies.co.uk</span>
-      </a>
-
+        <a href="mailto:info@soulponies.co.uk" target="_blank" rel="noopener noreferrer">
+          info@soulponies.co.uk
+        </a>
+      </p>
     </div>
   )
 }

@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand&display=swap');
+
 $color1: #ff9900;
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  font-family: 'Shrikhand', cursive;
+  font-size: 28px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -15,6 +19,8 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  margin-right: 300px; /* Same as the width of the sidenav */
+  padding: 15px;
 }
 
 #main-logo {
@@ -22,11 +28,17 @@ body {
   margin: 40px;
 }
 
+
+// SIDE NAVIGATION ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
 #sidenav-logo {
-  width: 200px;
+  width: 300px;
+  padding: 40px;
   display: block;
-  margin: auto;
+  // margin: auto;
+  background-color: $color1;
 }
+
+
 
 
 .sidenav {
@@ -36,25 +48,42 @@ body {
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: $color1;
-  overflow-x: hidden;
-  padding-top: 20px;
+  background-color: black;
+  // overflow-x: hidden;
+  // padding-top: 20px;
 }
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: black;
+  color: white;
   display: block;
 }
 
 .sidenav a:hover {
-  color: white;
+  color: black;
+  background-color: white;
 }
 
-.main {
-  margin-right: 300px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+// .main {
+//   margin-right: 300px; /* Same as the width of the sidenav */
+//   font-size: 28px; /* Increased text to enable scrolling */
+//   padding: 0px 10px;
+// }
+
+
+
+
+
+
+//•••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+#contact.container {
+  a {
+    display: block;
+  }
+
+  p {
+    text-align: center;
+  }
 }

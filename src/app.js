@@ -15,7 +15,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="home">
         <SideNav />
         <div className="container main">
           <img id="main-logo" src="./sp-logo.svg" alt="Soul Ponies Logo" />
